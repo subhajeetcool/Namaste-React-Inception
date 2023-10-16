@@ -8,13 +8,13 @@
 </head>
 <body>
     <!-- using plain HTML -->
-    <!-- <div id="root">
+    <div id="root">
 
         <h1>Hello World! using HTML element</h1>
-    </div> -->
+    </div>
 
     <!-- using javascript  -->
-    <!-- <div id="root"></div>
+    <div id="root"></div>
 
     <script>
         const heading = document.createElement('h1');
@@ -24,7 +24,7 @@
         const root = document.getElementById('root');
 
         root.appendChild(heading);
-    </script> -->
+    </script>
 
     <!-- using react  -->
     <!-- cdn - content delivery network -->
@@ -32,16 +32,11 @@
         <h1>Hello is replaced bby the root when it is rendered</h1>
     </div>
     <h1>This tag will not be replaced</h1>
-    <script 
-    crossorigin src="https://unpkg.com/react@18/umd/react.development.js"> // core of react
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"> // core of react
     </script>
-    <script 
-    crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"> // react dom
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"> // react dom
     </script>
-
     <script src="./App.js">
-        
     </script>
-    
 </body>
 </html>
