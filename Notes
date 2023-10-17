@@ -1,0 +1,24 @@
+# How to create our own create react app intead of using global create-react-app
+
+we can do npm init
+package.json file be created - it is configuration for npm
+npm - manages all the packages
+npm - repository to manage all the packages
+packages are also known as dependency
+most important packages/bundler are: (webpack, parcel)
+Bundler package - bundles the app properly to shift towards production
+we have installed parcel(bundler) 
+There are 2 types of packages we can install:
+                    dev dependency
+                    normal dependency
+Package.json - It is a configuration for npm and keeps the track of versions installed
+Package-lock.json - It keeps the trac of exact versions that is being installed
+It also locks the versions and keeps the records
+node_modules - it is a database which contains data
+.gitignore - in this we keep files which should not be pushed to github
+package-lock.json and package.json should be pushed to github - it keeps the tracks of 
+
+# How to render app using parcel
+- npx parcel index.html
+- npx means executing a package,
+- npm means installing a package
